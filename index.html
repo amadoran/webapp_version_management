@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menú de Navegación Estilizado</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
     
-</body>
+        <header>
+            <h1 class="titulo">Taller</h1>
+        </header>
+    
+        <nav>
+            <ul id="navLinks">
+                <li><button onclick="scrollToSection('Acerca de')">Acerca de</button></li>
+                <li><button onclick="scrollToSection('Contacto')">Contactanos</button></li>
+            </ul>
+        </nav>
+    
+        <h2 class="h2" id="Acerca de">Acerca de mí</h2>
+        <p>Aquí puedes incluir información sobre ti.</p>
+    
+        <h2 class="h2" id="Contacto">Contactanos</h2>
+        <p>Aquí puedes incluir información sobre cómo contactarte.</p>
+    
+        <script src="script.js"></script>
+    </body>
 </html>
