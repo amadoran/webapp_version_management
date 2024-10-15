@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
     <link href="about-us.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
+    <section id ="contact-us">
+        <h1>Contact Us</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
     <section class="block">
         <h1 class="title">About Us</h1>
         <p class="paragraph">We are a small company that sells widgets.</p>
     </section>
-</body>
+
 </html>
