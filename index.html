@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="about-us.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Taller</h1>
+    </header>
+    <nav>
+        <ul id="navLinks">
+            <li><button onclick="scrollToSection('Acerca de')">Acerca de</button></li>
+            <li><button onclick="scrollToSection('Contacto')">Contactanos</button></li>
+        </ul>
+    </nav>
+    <h2 class="h2" id="Acerca de">Acerca de mí</h2>
+    <section class="block">
+        <h1 class="title">About Us</h1>
+        <p class="paragraph">We are a small company that sells widgets.</p>
+    </section>
+    <h2 class="h2" id="Contacto">Contactanos</h2>
     <section id ="contact-us">
         <h1>Contact Us</h1>
         <form action="#" method="POST">
@@ -26,10 +42,6 @@
             <button type="submit">Send</button>
         </form>
     </section>
-
-    <section class="block">
-        <h1 class="title">About Us</h1>
-        <p class="paragraph">We are a small company that sells widgets.</p>
-    </section>
-
+    <script src="script.js"></script>
+</body>
 </html>
